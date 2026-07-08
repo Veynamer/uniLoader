@@ -258,6 +258,12 @@ config SONY
 		help
 		  Say Y if your device uses i.MX6SL
 
+	config UMS512
+		bool "Support for Unisoc T610"
+		select UNISOC
+		help
+		  Say Y if your device uses UNISOC UMS512
+
 	config UMS9230
 		bool "Support for Unisoc T606"
 		select UNISOC

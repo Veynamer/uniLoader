@@ -50,6 +50,13 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Infinix Note 30 VIP
 
+	config INFINIX_X6816D
+		bool "Support for Infinix Hot 12 PLAY NFC"
+		default n
+		depends on UMS512
+		help
+		  Say Y if you want to include support for Infinix HOT 12 PLAY
+
 	config ITEL_P682LPN
 		bool "Support for itel Vision 3 Plus"
 		default n
